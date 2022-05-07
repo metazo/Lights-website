@@ -55,6 +55,7 @@ button {
     border: 0;
     outline: 0;
     cursor: pointer;
+    transition: background 0.5s;
 }
 
 button span {
@@ -64,6 +65,7 @@ button span {
     width: 26px;
     border-radius: 50%;
     margin-left: 2px;
+    transition: bacground 0.5s, margin-left 0.5s;
 }
 
 .lamp-container {
@@ -85,6 +87,7 @@ button span {
     width: 700px;
     margin-left: -10px;
     opacity: 0;
+    transition: opacity 0.5s;
 }
 
 .text-container {
@@ -140,4 +143,8 @@ button span {
 .active span {
     background: #fff;
     margin-left: 31px;
+}
+
+.on {
+    opacity: 1;
 }
